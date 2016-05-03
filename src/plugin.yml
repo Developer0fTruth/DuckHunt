@@ -1,0 +1,36 @@
+name: DuckHunt
+author: Turqmelon
+version: 1.0
+main: com.turqmelon.DuckHunt.DuckHunt
+description: Duck Hunt for Mitch
+commands:
+    newmap:
+        usage: /newmap <Name>
+        description: Make a new map
+    setplayerspawn:
+        usage: /setplayerspawn
+        description: Sets the spawn point for players (non-ops)
+    setgoal:
+        usage: /setgoal <Radius>
+        description: Sets the map goal point
+    sethunterspawn:
+        usage: /sethunterspawn
+        description: Sets the spawn point for hunters (ops)
+    unloadmap:
+        usage: /unloadmap
+        description: Unloads data for the current map
+    setwallpoint1:
+        usage: /setwallpoint1
+        description: Sets a wall point
+    setwallpoint2:
+        usage: /setwallpoint2
+        description: Sets a wall point
+    setwall:
+        usage: /setwall <Material>
+        description: Creates barriers
+    warpall:
+        usage: /warpall
+        description: Teleports all players to their proper spawns
+    loadmap:
+        usage: /loadmap <Name>
+        description: Loads a previously saved map
